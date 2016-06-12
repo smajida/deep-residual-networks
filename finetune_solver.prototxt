@@ -1,0 +1,21 @@
+net: "ResNet-101-train.prototxt"
+
+lr_policy: "multistep"
+multistep_lr: 0.001
+stepvalue: 10000
+multistep_lr: 0.002
+stepvalue: 430000
+multistep_lr: 0.0002
+stepvalue: 730000
+multistep_lr: 0.0001
+
+max_iter: 1030000
+
+display: 20
+
+momentum: 0.9
+weight_decay: 0.0001
+
+snapshot_prefix: "finetune_train"
+snapshot: 60000
+
