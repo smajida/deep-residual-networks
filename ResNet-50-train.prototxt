@@ -21,7 +21,7 @@ layer {
     mean_value: 123
   }
   pose_data_param {
-    source: "/home/insafutdin/pose/mpii-single-corr/nets/mpii-single-lspext-mpii-multi.txt"
+    source: "/home/majid/mpi.txt"
     batch_size: 1
     fg_threshold: 17
     fg_fraction: 0.25
